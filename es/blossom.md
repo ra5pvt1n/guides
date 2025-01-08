@@ -10,7 +10,7 @@ Blossom es, por lo tanto, un conjunto de puntos finales HTTP que permiten a los 
 
 ## ¿Por qué Blossom?
 
-Como mencionamos hace un momento, al usar claves nostr como su identidad, Blossom permite que los datos sean "propiedad" del usuario. Esto simplifica enormemente la cuestión de "qué es spam" para el alojamiento de servidores. Por ejemplo, en nuestro Blossom solo permitimos cargas por miembros de la comunidad verificados que tengan un [NIP-05](nips.nostr.com/5) con nosotros.
+Como mencionamos hace un momento, al usar claves nostr como su identidad, Blossom permite que los datos sean "propiedad" del usuario. Esto simplifica enormemente la cuestión de "qué es spam" para el alojamiento de servidores. Por ejemplo, en nuestro Blossom solo permitimos cargas por miembros de la comunidad verificados que tengan un [NIP-05](https://nips.nostr.com/5) con nosotros.
 
 Los usuarios pueden cargar en múltiples servidores de blossom, por ejemplo, uno alojado por su comunidad, uno de pago, otro público y gratuito, para establecer redundancia de sus datos. Los blobs pueden ser [espejados](https://github.com/hzrd149/blossom/blob/master/buds/04.md) entre servidores de blossom, de manera similar a cómo los relés nostr pueden transmitir eventos entre sí. Esto mejora aún más la resistencia a la censura de blossom.
 

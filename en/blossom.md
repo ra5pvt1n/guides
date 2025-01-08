@@ -10,7 +10,7 @@ Blossom is therefore a set of HTTP endpoints that allow users to store and retri
 
 ## Why Blossom?
 
-As we alluded to just now, by using nostr keys as their identity, Blossom allows data to be "owned" by the user. This greatly simplifies the question of "what is spam" for server hosting. For example, on our Blossom we only allow uploads by verified community members that have a [NIP-05](nips.nostr.com/5) with us.
+As we alluded to just now, by using nostr keys as their identity, Blossom allows data to be "owned" by the user. This greatly simplifies the question of "what is spam" for server hosting. For example, on our Blossom we only allow uploads by verified community members that have a [NIP-05](https://nips.nostr.com/5) with us.
 
 Users can upload to multiple blossom servers, for example, one hosted by their community, one paid, another public and free, to establish redundancy of their data. Blobs can be [mirrored](https://github.com/hzrd149/blossom/blob/master/buds/04.md) between blossom servers, much like how nostr relays can stream events to each other. This further improves the censorship resistance of blossom.
 
